@@ -1,0 +1,10 @@
+#!/usr/bin/env fish
+
+# Usage:
+#
+# To enable fish <tab> completion for gargle, add the following line to
+# your ~/.config/fish/config.fish file:
+#
+# gargle --completion=fish | source
+
+complete -c gargle -a "(gargle --tasks-simple)" -f

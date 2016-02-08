@@ -1,0 +1,14 @@
+
+commands
+builtins
+controls
+
+
+gargle.src('*.md')
+.pipe(gargle.collect({to:'posts'});
+.pipe(gargle.reduce({from:'posts.categories', to:'posts.categoryCount', init:{}, fn:(init, cats) => { for (var i in cats) { var count = init[0j } } , apply:'each');
+.pipe(gargle.reduce({from:'posts.categories', to:'posts.categoryCount', init:[], fn:(init, a) => {} , apply:'first');
+.pipe(gargle.histogram({from:'posts.categories', to:'posts.categoryCount', init:[], fn:(init, cats) => () );
+.pipe(gargle.map(
+.pipe(gargle.map(
+.pipe(gargle.dest('www'))
